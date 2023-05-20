@@ -1,25 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/demo_buttons.dart';
 
-class UIUpdatesDemo extends StatefulWidget {
+class UIUpdatesDemo extends StatelessWidget {
   const UIUpdatesDemo({Key? key}) : super(key: key);
 
   @override
-  StatefulElement createElement() {
-    print('UIUpdatesDemo: CREATEELEMENT called');
-    return super.createElement();
-  }
-
-  @override
-  State<UIUpdatesDemo> createState() => _UIUpdatesDemoState();
-}
-
-class _UIUpdatesDemoState extends State<UIUpdatesDemo> {
-
-
-  @override
   Widget build(BuildContext context) {
-
+    print('UIUpdatesDemo BUILD called');
     return const Padding(
       padding: EdgeInsets.all(8.0),
       child: Center(
