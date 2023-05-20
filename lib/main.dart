@@ -5,7 +5,7 @@ import 'package:todo_app/ui_updates_demo.dart';
 void main() {
   runApp(const MyApp());
 }
-
+//todo: improve this app as my personal task management app and deploy it on firebase as a multilingual app(en, fr, port, es)
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
